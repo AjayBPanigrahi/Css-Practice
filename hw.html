@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Rubik", sans-serif;
+      }
+      img {
+        width: 300px;
+        border-radius: 8px;
+      }
+      .outerdiv {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        background-color: #ffffff;
+        box-shadow: 5px 5px 15px 0px rgba(128, 120, 128, 0.5);
+        padding: 10px;
+        border-radius: 8px;
+        display: inline-block;
+        width: 320px;
+        text-align: left;
+      }
+      p {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: bolder;
+      }
+      hr {
+        width: 220px;
+        opacity: 0.7;
+        border: 1px solid #f0ecec;
+        margin-bottom: 8px;
+        margin-top: 8px;
+      }
+      #disc {
+        font-size: 14px;
+        color: #6674cc;
+        margin-right: 5px;
+      }
+      #act {
+        font-size: 14px;
+        color: #777c85;
+        margin-right: 5px;
+      }
+      #off {
+        font-size: 12px;
+        background-color: #1dd1a1;
+        padding: 3px;
+        color: #ffffff;
+        border-radius: 6px;
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outerdiv">
+      <div class="container">
+        <img src="images/course.jpg" alt="course-img" />
+        <p>Web Development Master Course @dot Batch</p>
+        <hr />
+        <span id="disc">₹4500 </span>
+        <span id="act"><del>₹6999</del></span>
+        <span id="off">42% off</span>
+      </div>
+    </div>
+  </body>
+</html>
